@@ -29,7 +29,7 @@ public class BrendanFirstOpMode extends LinearOpMode {
         tgtPower = -gamepad1.left_stick_y;
         left_motor.setPower(tgtPower);
         right_motor.setPower(-tgtPower);
-        telemetry.addData("Power Variable", tgtPower);
+        telemetry.addData("Power VariableTEST", tgtPower);
         telemetry.addData("Motor Power", left_motor.getPower());
         telemetry.update();
       }
